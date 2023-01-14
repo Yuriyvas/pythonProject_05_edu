@@ -17,4 +17,4 @@ if __name__ == '__main__':
 # First lesson
 print_hi('PyCharm')
 print_hi('PyCharm')
-print_hi('PyCharm_Git!!')
+print_hi('PyCharm_Git!3')
