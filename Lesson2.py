@@ -73,14 +73,15 @@ else: print('Even')
 
 print('**** Homework #3 ***')
 
-year = float(input('Enter any year: '))
+# year = float(input('Enter any year: '))
+year = input('Enter any year: ')
 if year % 400 == 0:
-    print('Leap year')
+    print(f'{year} Leap year 400')
 elif year % 100 == 0:
-    print('Not-leap year')
+    print(f'{year} Not-leap year 100')
 elif year % 4 == 0:
-    print('Leap year')
-else: print('Not-leap year')
+    print(f'{year} Leap year')
+else: print(f'{year} Not-leap year', end=' ')
 
 #hw4
 print('**** Homework #4 ***')
