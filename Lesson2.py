@@ -52,6 +52,48 @@ print( give_me_power(7,8))
 
 #homework
 
+#hw1
+print('**** Homework #1 ***')
+
+health = float(input('Health: '))
+if health >0:
+    print('True')
+else: print('False')
+
+
+#hw2
+print('**** Homework #2 ***')
+
+num = float(input('Enter any number: '))
+if num % 2 == 1 :
+    print('Odd')
+else: print('Even')
+
+#hw3
+
+print('**** Homework #3 ***')
+
+year = float(input('Enter any year: '))
+if year % 400 == 0:
+    print('Leap year')
+elif year % 100 == 0:
+    print('Not-leap year')
+elif year % 4 == 0:
+    print('Leap year')
+else: print('Not-leap year')
+
+#hw4
+print('**** Homework #4 ***')
+
+text = input('Input any text: ')+ '\n'
+repeat = int(input('How mach repeat it:'))
+print(text * repeat)
+
+
+
+
+
+
 
 
 
