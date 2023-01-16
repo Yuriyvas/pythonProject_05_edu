@@ -1,5 +1,5 @@
 x = 5
-print(x < 8 and x > 3)
+print(8 > x > 3)
 print(x < 8 or x > 3)
 print(x < 8 and not x > 3)
 
@@ -42,9 +42,9 @@ print('')
 
 # def
 print("* " * 15)
-def give_me_power (num, st):
-    print('Hello');
-    return num ** st
+def give_me_power (xyz, st):
+    print('Hello')
+    return xyz ** st
 
 print( give_me_power(7,8))
 
