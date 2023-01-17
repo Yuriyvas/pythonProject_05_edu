@@ -56,16 +56,23 @@ print( give_me_power(7,8))
 print('**** Homework #1 ***')
 
 health = float(input('Health: '))
-if health >0:
+if health > 0:
     print('True')
 else: print('False')
+print('V2')
+print(health > 0)
 
 
 #hw2
 print('**** Homework #2 ***')
 
-num = float(input('Enter any number: '))
+num = int(input('Enter any number: '))
 if num % 2 == 1 :
+    print('Odd')
+else: print('Even')
+
+print('V2')
+if num % 2:
     print('Odd')
 else: print('Even')
 
@@ -74,7 +81,7 @@ else: print('Even')
 print('**** Homework #3 ***')
 
 # year = float(input('Enter any year: '))
-year = input('Enter any year: ')
+year = int(input('Enter any year: '))
 if year % 400 == 0:
     print(f'{year} Leap year 400')
 elif year % 100 == 0:
@@ -82,6 +89,14 @@ elif year % 100 == 0:
 elif year % 4 == 0:
     print(f'{year} Leap year')
 else: print(f'{year} Not-leap year', end=' ')
+
+# year2 = int(input('Enter any year: '))
+print('Second version')
+for year2 in range(2001):
+    if not year2 % 4 and (year2 % 100 or not year2 % 400):
+        print("\033[31m{}".format(f'{year2} Leap year'))
+    else: print("\033[34m{}".format(f'{year2} Not-leap year'), end=' ')
+print("\033[0m{}".format(''))
 
 #hw4
 print('**** Homework #4 ***')
