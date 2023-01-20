@@ -16,3 +16,13 @@ def my_stepen(x,y):
 def my_umn(x,y):
    return x*y
 
+def devision (x, y):
+   red = "\033[31m{}".format
+   blue = "\033[34m{}".format
+   reset = "\033[0m{}".format('')
+   try:
+      return x/y
+   except ZeroDivisionError:
+      print(red('На ноль делить нельзя!'), reset )
+      return 0
+
